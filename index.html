@@ -1,48 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Portifólio Web</title>
+  <meta charset="UTF-8">
+  <title>Portifólio Web</title>
+
+  <style>
+    
+    body {
+      background-color: gray;
+      font-family: courier;
+    }
+    
+    h1 {
+      font-family: monospace;
+      font-size: 50px;
+      font-weight: 700;
+      text-align: center;
+      letter-spacing: 5px;
+      background-color: rgb(25, 76, 172);
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .paragrafo-estilizado {
+        font-size: 25px;
+        font-family:'Courier'; 
+      }
+
+      .lista-estilizada {
+        font-size: 15px ;
+      }
+
+  </style>
+
 </head>
+
 <body>
-    
-    <h1>João Victor Lima Braga</h1>
-    
-    <hr>
-    <h2><strong>Índice</strong></h2>
 
-    <ul>
-        <li><a href="#01">Apresentação</a></li>
-        <li><a href="#420">Foto</a></li>
-        <li><a href="#lista">Lista de habilidades</a></li>
-        <li><a href="#blog">Blog</a></li>
-    </ul>
+  <h1>João Victor Lima Braga</h1>
 
-    <hr>
+  <hr>
 
-    <h2 id="01"><strong>Apresentação:</strong></h2>
+  <h2><strong>Índice</strong></h2>
 
-    <img id="420" src="jota.jpeg" alt="foto do jotinha" width="200px">
-    
-    <p><em>Salve galera!</em></p>
+  <ul>
+    <li><a href="#01">Apresentação</a></li>
+    <li><a href="#420">Foto</a></li>
+    <li><a href="#lista">Lista de habilidades</a></li>
+    <li><a href="#blog">Blog</a></li>
+  </ul>
 
-    <p>Me chamo João Victor Braga, mas pode me chamar de jotinha se quiser.Um cara amante de esportes e natureza, apaixonado principalmente por uma praia! Sou de São Luís do Maranhão, a famosa Jamaica brasileira, cidade regada por muito reggae e amor, onde nosso Centro Histórico é reconhecido mundialmente como patrimonio cultural!</p>
-    
-    <hr>
+  <hr>
 
-    <h2 id="lista"><strong>Lista de habilidades</strong></h2>
-    
-    <ul>
-        <li>Surfo</li>
-        <li>Ando de skate</li>
-        <li>consigo desenrolar no inglês</li>
-        <li>tenho as mãos hábeis</li>
-        <li>sei fazer manutenção de máquinhas</li>
-    </ul>
-   
-    <hr>
+  <h2 id="01"><strong>Apresentação:</strong></h2>
 
-        <a id="blog" href="https://surfguru.com.br/" target="_blank">Blog favorito</a>
+  <img id="420" src="jota.jpeg" alt="foto do jotinha" width="200px">
+
+  <p class="paragrafo-estilizado"><em>Salve galera!</em></p>
+
+  <p class="paragrafo-estilizado">
+    Me chamo João Victor Braga, mas pode me chamar de jotinha se quiser. Um cara amante de esportes e natureza,
+    apaixonado principalmente por uma praia! <strong>Sou de São Luís do Maranhão</strong>, a famosa Jamaica brasileira, cidade regada
+    por muito reggae e amor, onde nosso Centro Histórico é reconhecido mundialmente como patrimonio cultural!
+  </p>
+
+  <hr>
+
+  <h2 id="lista"><strong>Lista de habilidades</strong></h2>
+
+  <ul>
+    <li class="lista-estilizada">Surfo</li>
+    <li class="lista-estilizada">Ando de skate</li>
+    <li class="lista-estilizada">consigo desenrolar no inglês</li>
+    <li class="lista-estilizada">tenho as mãos hábeis</li>
+    <li class="lista-estilizada">sei fazer manutenção de máquinhas</li>
+  </ul>
+
+  <hr>
+
+  <a id="blog" href="https://surfguru.com.br/" target="_blank">Blog favorito</a>
 
 </body>
+
 </html>
